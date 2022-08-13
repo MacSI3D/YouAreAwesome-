@@ -17,21 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Are Awesome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXx-aK-eb1">
-                                <rect key="frame" x="20" y="64" width="374" height="348"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" systemColor="systemRedColor"/>
-                                <color key="highlightedColor" name="AccentColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giddy Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLg-s5-dR3">
+                                <rect key="frame" x="130" y="427" width="154" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="0.92267626520000001" green="0.33353781700000001" blue="0.26864200830000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <color key="tintColor" name="AccentColor"/>
                         <constraints>
-                            <constraint firstItem="HXx-aK-eb1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1jv-f7-LYp"/>
-                            <constraint firstItem="HXx-aK-eb1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OBa-rF-VK1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HXx-aK-eb1" secondAttribute="bottom" constant="450" id="Rqd-oI-eFG"/>
-                            <constraint firstItem="HXx-aK-eb1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lCn-hP-iR8"/>
+                            <constraint firstItem="sLg-s5-dR3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bHu-vJ-uNu"/>
+                            <constraint firstItem="sLg-s5-dR3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rxs-X8-KjQ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,9 +44,6 @@
         </namedColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
